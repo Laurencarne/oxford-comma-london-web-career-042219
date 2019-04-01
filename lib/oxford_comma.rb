@@ -6,6 +6,6 @@ def oxford_comma(array)
   elsif array.count == 3
     result = "#{array[0...-1].join(", ")}, and #{array.last}"
   else
-    array.join(", " , " and")
+    result = "#{array[0...-1].join(", ")}, and #{array.last}
   end
 end
